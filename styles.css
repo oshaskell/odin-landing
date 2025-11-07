@@ -115,12 +115,20 @@ a {
 }
 
 .image {
-    width: 150px;
+    max-width: 150px;
     height: 150px;
+    display: flex;
     border-style: solid;
     border-width: 3px;
     border-radius: 20px;
     border-color: #3882f6;
+}
+
+.image img {
+    max-width: 150px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
